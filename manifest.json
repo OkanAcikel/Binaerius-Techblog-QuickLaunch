@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Binaerius Launcher",
+    "description": "Quick launch Binaerius Launcher Media",
+    "version": "1.0.1",
+    "icons": { "128": "logo128.png" },
+    "browser_action": {
+      "default_icon": "logo150.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+  }
